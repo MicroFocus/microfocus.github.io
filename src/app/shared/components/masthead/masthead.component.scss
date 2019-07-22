@@ -1,0 +1,205 @@
+@import '~@micro-focus/quantum-ux/scss/masthead/qtm-masthead_spec';
+
+:host {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+.container-fluid-padding {
+  padding-left: 24px;
+}
+
+.masthead {
+  position: relative;
+  background-color: $qtm-masthead__background-color;
+  transition: height 250ms ease-in-out;
+  height: 100px;
+  z-index: 2;
+  overflow: hidden;
+
+  .container-fluid {
+    display: flex;
+    height: 100%;
+    align-items: center;
+
+    .open-source-image {
+      position: absolute;
+      bottom: 0;
+      background-color: black;
+      color: white;
+      font-size: 18px;
+      text-transform: uppercase;
+      padding: 8px 12px;
+      font-weight: 600;
+      opacity: 0;
+      transform: translateY(100%);
+      transition: transform 250ms ease-in-out, opacity 250ms ease-in-out;
+
+      &.open-source-image-visible {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+  }
+
+  &.masthead-collapsed {
+    height: 60px;
+    box-shadow: 0 7px 0 rgba(0, 0, 0, 0.01);
+  }
+}
+
+.masthead-label {
+  background-color: #fff;
+  height: 75px;
+  display:flex;
+  width: 100%;
+  transition: transform 250ms ease-in-out, opacity 250ms ease-in-out;
+  opacity: 1;
+  z-index: 1;
+  transform: none;
+
+  &.masthead-label-collapsed {
+    opacity: 0;
+    transform: translateY(-40px) scaleY(0);
+  }
+
+  .container-fluid-label {
+    display: inline-flex;
+    height: 100%;
+    font-size: 40px;
+    align-items: center;
+
+    .open-source-label {
+      background-color: #000;
+      color: #fff;
+      font-weight: 700;
+      padding: 8px 24px 6px;
+      text-transform: uppercase;
+      height: 100%;
+      align-items: center;
+    }
+
+    .microfocus-label {
+      color: #000;
+      height: 100%;
+      padding: 8px 24px 6px;
+      align-items: center;
+    }
+  }
+
+}
+
+.masthead-buttons {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  flex: 1;
+}
+
+.masthead-button {
+  display: inline-flex;
+  align-items: center;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: $qtm-masthead-navigation-item__padding;
+  height: 100%;
+
+  &:hover {
+    text-decoration: none;
+    cursor: pointer;
+    background-color: $qtm-masthead-button__background-color--hover;
+  }
+
+  &:focus.ux-focus-indicator.ux-focus-indicator-active {
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5) !important;
+  }
+
+  &.active span {
+    font-weight: $qtm-masthead-navigation-item-label__font-weight--active;
+    color: $qtm-masthead-navigation-item-label__color--active;
+
+    &.masthead-button-scroll:after {
+      width: 100%;
+      transform: scaleX(1);
+    }
+
+    &:after {
+      width: 100%;
+      transform: scaleX(1);
+    }
+  }
+
+  span {
+    &:after {
+      content: '';
+      display: block;
+      margin: auto;
+      height: $qtm-masthead-navigation-item__border-bottom-width--active;
+      width: 100%;
+      top: 35px;
+      position: relative;
+      background-color: $qtm-masthead-navigation-item__border-bottom-color--active;
+      transition: transform  250ms ease-out, top  250ms ease-in-out;
+      transform: scaleX(0);
+    }
+
+    &.masthead-button-scroll:after {
+      top: 15px;
+      transition: top 250ms ease-in-out;
+    }
+  }
+
+}
+
+.masthead-icon {
+  opacity: 1;
+  transition: opacity 250ms ease-in-out;
+
+  &.masthead-icon-hidden {
+    opacity: 0;
+  }
+}
+
+.masthead-toggle {
+  color: #fff;
+  margin-left: auto;
+
+  &:focus.ux-focus-indicator.ux-focus-indicator-active {
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5) !important;
+  }
+}
+
+.masthead-dropdown-expanded {
+  display: block;
+  position: fixed;
+  top: 59px;
+}
+
+.dropdown-menu {
+  .dropdown-item {
+
+    &.active {
+      box-shadow: inset 4px 0 0 0 #0073E7;
+      font-weight: bold;
+      color: #000;
+    }
+
+    &:hover {
+      color: #323435;
+      background-color: rgba(0,115,231,.05);
+    }
+
+    &:focus.ux-focus-indicator.ux-focus-indicator-active {
+      box-shadow: inset 0 0 0 2px rgba(0, 115, 231, 0.5) !important;
+
+      &.active {
+        box-shadow: inset 4px 0 0 0 #0073E7, 0 0 0 2px rgba(0, 115, 231, 0.5) !important;
+      }
+    }
+  }
+}

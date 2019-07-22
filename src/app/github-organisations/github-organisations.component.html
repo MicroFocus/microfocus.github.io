@@ -1,0 +1,25 @@
+<div class="row">
+
+  <div class="col-md-4 col-sm-6 p-nil" *ngFor="let organisation of organisations">
+
+    <a class="ebox" target="_blank" rel="noopener" [href]="organisation.link.url">
+
+        <div class="ebox-card-content">
+
+          <h2 class="ebox-card-title">{{organisation.title}}</h2>
+          <p [appEllipsis]="organisation.description"></p>
+
+        </div>
+
+        <div class="ebox-card-footer">
+
+          <span class="ux-icon" [ngClass]="organisation.link.icon" title="organization link icon"></span>
+          <span class="ebox-footer-link-title">{{organisation.link.title}}</span>
+
+        </div>
+
+    </a>
+
+  </div>
+
+</div>

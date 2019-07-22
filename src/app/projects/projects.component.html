@@ -1,0 +1,27 @@
+<div class="row">
+
+  <div class="col-md-4 col-sm-6 p-nil" *ngFor="let project of projects">
+
+    <a class="ebox" target="_blank" rel="noopener" [href]="project.link.url">
+
+        <div class="ebox-card-content">
+
+          <img [src]="project.image" alt="project image">
+
+          <h2>{{project.title}}</h2>
+          <p [appEllipsis]="project.description"></p>
+
+        </div>
+
+        <div class="ebox-card-footer">
+
+          <span class="ux-icon" [ngClass]="project.link.icon" title="project link icon"></span>
+          <span class="ebox-footer-link-title">{{project.link.title}}</span>
+
+        </div>
+
+    </a>
+
+  </div>
+
+</div>

@@ -1,0 +1,31 @@
+.ebox.ebox-post {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 30px 48px;
+
+  .post-title {
+    margin-top: 0;
+    font-size: 21px;
+    letter-spacing: 0.5px;
+    text-transform: none;
+    font-weight: 600;
+  }
+
+  .post-details {
+    color: #656668;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .post-content {
+    overflow: hidden;
+  }
+
+  hr {
+    padding: 5px 0;
+  }
+
+  :last-child hr {
+    display: none;
+  }
+}

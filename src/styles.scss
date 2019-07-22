@@ -1,0 +1,102 @@
+.footer-offset {
+  padding-bottom: 116px;
+}
+
+.open-source-page-header {
+  font-size: 42px;
+  text-transform: none;
+  padding-bottom: 4px;
+  letter-spacing: 0.5px;
+}
+
+.body-light .page-content a.ebox  {
+  display: block;
+  transition: box-shadow .25s ease-in-out;
+  padding: 0;
+
+  &:hover {
+    box-shadow: 5px 5px rgba(0,0,0,.05);
+
+    .ebox-footer-link-title, .ux-icon {
+      color: #0073E7;
+    }
+  }
+
+  &:focus {
+    box-shadow: 5px 5px rgba(0,0,0,.05);
+
+    .ebox-footer-link-title, .ux-icon {
+      color: #0073E7;
+    }
+  }
+}
+
+.ebox-card-footer {
+  height: 40px;
+  line-height: 16px;
+  background-color: #f5f7f8;
+  padding: 12px 24px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #BDBEC0;
+
+  span  {
+    &.ebox-footer-link-title {
+      padding-left: 11px;
+    }
+
+  }
+}
+
+.ebox-card-content {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+
+  h2 {
+    color: #000000;
+    letter-spacing: 0.5px;
+    flex: none;
+  }
+
+  p {
+    flex: 1;
+    color: #656668;
+    overflow: hidden;
+  }
+}
+
+code {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #c7254e;
+  background-color: #f9f2f4;
+  border-radius: 4px;
+}
+
+.hljs-keyword, .hljs-attribute, .hljs-selector-tag, .hljs-meta-keyword, .hljs-doctag, .hljs-name {
+  color: #4472c4;
+  font-weight: normal;
+}
+
+.hljs, .hljs-attr {
+  color: teal;
+}
+
+.hljs, .hljs-tag {
+  color: teal;
+}
+
+.hljs-type, .hljs-string, .hljs-number, .hljs-selector-id, .hljs-selector-class, .hljs-quote, .hljs-template-tag, .hljs-deletion {
+  color: #c7254e;
+}
+
+.hljs, .hljs-subst .xml {
+  color: #000;
+}
+
+.hljs-title, .hljs-section {
+  color: #c7254e;
+  font-weight: normal;
+}
