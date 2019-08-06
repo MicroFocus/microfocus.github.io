@@ -18,10 +18,9 @@
 
         <div class="post-content" appCodeHighlighter [innerHTML]="post?.html" *ngIf="post.show"></div>
 
-
         <div class="post-content" *ngIf="!post.show">
 
-          <p>{{post?.body | slice:0:493}}&#8230;</p>
+          <p [innerHTML]="post?.preview"></p>
 
         </div>
 
@@ -31,7 +30,7 @@
 
       </div>
 
-      <p *ngIf="posts.length === 0">There are currently no blog posts.</p>
+      <p *ngIf="posts.length === 0" class="m-b-nil">There are currently no blog posts.</p>
 
     </div>
 

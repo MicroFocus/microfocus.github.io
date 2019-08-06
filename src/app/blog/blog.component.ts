@@ -16,7 +16,15 @@ export class BlogComponent {
     this.posts.sort((a: Post, b: Post) => {
       return new Date(b.attributes.date).getTime() - new Date(a.attributes.date).getTime();
     });
+
+    for (const post of this.posts) {
+      const container = document.createElement('div');
+      container.innerHTML = post.html;
+      const paragraph = container.querySelector('p');
+      post.preview = paragraph ? paragraph.innerHTML : '';
+    }
   }
+
 }
 
 export interface Post {
@@ -24,6 +32,7 @@ export interface Post {
   body?: string;
   html?: string;
   show?: boolean;
+  preview?: string;
 }
 
 export interface Details {
