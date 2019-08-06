@@ -5,17 +5,13 @@
     <a class="ebox" target="_blank" rel="noopener" [href]="organisation.link.url">
 
         <div class="ebox-card-content">
-
-          <h2 class="ebox-card-title">{{organisation.title}}</h2>
+          <h2 class="ebox-card-title">{{ organisation.title }}</h2>
           <p [appEllipsis]="organisation.description"></p>
-
         </div>
 
         <div class="ebox-card-footer">
-
-          <span class="ux-icon" [ngClass]="organisation.link.icon" title="organization link icon"></span>
-          <span class="ebox-footer-link-title">{{organisation.link.title}}</span>
-
+          <ux-icon [name]="organisation.link.icon" aria-hidden="true"></ux-icon>
+          <span class="ebox-footer-link-title">{{ organisation.link.title }}</span>
         </div>
 
     </a>

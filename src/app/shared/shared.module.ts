@@ -1,11 +1,11 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { EllipsisDirective } from './directives/ellipsis.directive';
 import { LayoutModule } from '@angular/cdk/layout';
-import { AccessibilityModule } from '@ux-aspects/ux-aspects';
-import { MastheadComponent } from './components/masthead/masthead.component';
+import { CommonModule } from '@angular/common';
+import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
+import { AccessibilityModule, IconModule } from '@ux-aspects/ux-aspects';
 import { FooterComponent } from './components/footer/footer.component';
+import { MastheadComponent } from './components/masthead/masthead.component';
+import { EllipsisDirective } from './directives/ellipsis.directive';
 
 @NgModule({
   declarations: [
@@ -17,7 +17,8 @@ import { FooterComponent } from './components/footer/footer.component';
     CommonModule,
     LayoutModule,
     RouterModule,
-    AccessibilityModule
+    AccessibilityModule,
+    IconModule
   ],
   exports: [
     MastheadComponent,

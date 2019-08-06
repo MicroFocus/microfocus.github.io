@@ -26,7 +26,7 @@ Projects are described in the `projects.yml` file. The following properties shou
 - `description`: A short summary of the purpose of the project. Note that the height of the project cards is limited, so if the title and/or description is particularly long, truncation will occur.
 - `link`: The following child properties describe the link to the project's homepage:
   - `url`: The URL of the project's web site or GitHub page.
-  - `icon`: The name of one of the [UX Aspects icons](https://uxaspects.github.io/UXAspects/#/css/icons#ux-icons), which should indicate the type of URL. For example, `ux-icon-social-github` for a GitHub repository page, or `ux-icon-home-filled` for a custom site.
+  - `icon`: The name of one of the [UX Aspects icons](https://uxaspects.github.io/UXAspects/#/css/icons#ux-icons), which should indicate the type of URL. For example, `social-github` for a GitHub repository page, or `home-filled` for a custom site.
   - `title`: The text to apply to the link. For a GitHub repository page, this should be the repository name.
 
 An example of a project entry:
@@ -37,7 +37,7 @@ An example of a project entry:
     description: UX Aspects is an open source user interface framework for building modern, responsive, mobile, big data applications on the web.
     link:
         url: https://uxaspects.github.io/UXAspects/#/landing
-        icon: ux-icon-home-filled
+        icon: home-filled
         title: UX Aspects
 ````
 
@@ -49,7 +49,7 @@ A GitHub organization can be added if it contains multiple active Micro Focus pr
 - `description`: A short summary of the purpose of the organization. Note that the height of the organization cards is limited, so if the title and/or description is particularly long, truncation will occur.
 - `link`: The following child properties describe the link to the organization's homepage:
   - `url`: The URL of the organization's web site or GitHub page.
-  - `icon`: The name of one of the [UX Aspects icons](https://uxaspects.github.io/UXAspects/#/css/icons#ux-icons), which should indicate the type of URL. For example, `ux-icon-social-github` for a GitHub organization page, or `ux-icon-home-filled` for a custom site.
+  - `icon`: The name of one of the [UX Aspects icons](https://uxaspects.github.io/UXAspects/#/css/icons#ux-icons), which should indicate the type of URL. For example, `ux-icon-social-github` for a GitHub organization page, or `home-filled` for a custom site.
   - `title`: The text to apply to the link.
 
 An example of an organization entry:
@@ -59,7 +59,7 @@ An example of an organization entry:
     description: Big data analytics service for next generation archiving, back-up, content management and analytics products.
     link:
       url: http://cafapi.github.io/
-      icon: ux-icon-home-filled
+      icon: home-filled
       title: cafapi.github.io
 ````
 
