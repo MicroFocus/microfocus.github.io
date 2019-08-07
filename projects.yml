@@ -1,0 +1,23 @@
+-   image: assets/images/ux-aspects-logo.png
+    title: UX Aspects
+    description: UX Aspects is an open source user interface framework for building modern, responsive, mobile, big data applications on the web.
+    link:
+        url: https://uxaspects.github.io/UXAspects/#/landing
+        icon: home-filled
+        title: UX Aspects
+
+-   image: assets/images/default-logo.png
+    title: Octane Issues Reporter
+    description: Octane Issues Reporter is an automatic service that adds the ability to create a defect in Center out of an exception.
+    link:
+        url: https://github.com/MicroFocus/octane-issues-reporter
+        icon: social-github
+        title: octane-issues-reporter
+
+-   image:  assets/images/default-logo.png
+    title: Octane jira coverage plugin
+    description: This ALM Octane plugin provides Jira users quality status directly on native Jira Epics.
+    link:
+        url: https://github.com/MicroFocus/octane-jira-coverage-plugin
+        icon: social-github
+        title: octane-jira-coverage-plugin

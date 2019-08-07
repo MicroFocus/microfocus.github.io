@@ -1,0 +1,2 @@
+ALT_DOCUMENTATION_FOLDER=target/docs
+SEPG_BUILD_ENV_IMAGE=uxaspects/buildenv:1.2.0

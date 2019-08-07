@@ -1,0 +1,20 @@
+-   title: Micro Focus
+    description: Open source software at Micro Focus.
+    link:
+      url: https://github.com/microfocus
+      icon: social-github
+      title: github.com/microfocus
+
+-   title: Common Application Framework
+    description: Big data analytics service for next generation archiving, back-up, content management and analytics products.
+    link:
+      url: http://cafapi.github.io/
+      icon: home-filled
+      title: cafapi.github.io
+
+-   title: Vertica
+    description: The future belongs to the fast, and Vertica delivers the fastest, most scalable advanced analytics platform, forever independent from underlying infrastructure.
+    link:
+      url: https://github.com/vertica
+      icon: social-github
+      title: github.com/vertica

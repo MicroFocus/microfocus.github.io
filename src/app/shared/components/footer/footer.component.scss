@@ -1,0 +1,51 @@
+.footer {
+  display: flex;
+  width: 100%;
+  background-color: #323435;
+  color: white;
+  height: 80px;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  transition: height 250ms ease-in-out;
+
+  .footer-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &.footer-item-alignment-start {
+      justify-content: flex-start;
+    }
+
+    &.footer-item-alignment-end {
+      justify-content: flex-end;
+    }
+
+    &.footer-item-link {
+      color: #bdbec0;
+    }
+
+    .footer-link {
+      color: #29ceff;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 991px) {
+  .footer {
+    height: 90px;
+    .footer-item {
+      padding: 3px 0;
+    }
+    .footer-item.footer-item-alignment-start, .footer-item.footer-item-alignment-end{
+      justify-content: center;
+    }
+  }
+}

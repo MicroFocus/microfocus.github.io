@@ -1,0 +1,78 @@
+<header class="masthead"
+  [class.masthead-collapsed]="isToggleVisible || isScroll">
+
+  <div class="container-fluid container-fluid-padding">
+
+    <img class="masthead-icon"
+         [class.masthead-icon-hidden]="isToggleVisible || isScroll"
+         src="assets/images/MF-Logo-white.png">
+
+    <div class="open-source-image"
+         [class.open-source-image-visible]="(isToggleVisible && (isScroll || !isScroll)) || (isScroll && !isToggleVisible)">
+      <span>Open Source</span>
+    </div>
+
+    <!-- Buttons on large displays -->
+    <nav uxTabbableList direction="horizontal" class="masthead-buttons" *ngIf="!isToggleVisible">
+
+      <a uxTabbableListItem class="masthead-button" routerLinkActive="active" routerLink="projects">
+        <span [class.masthead-button-scroll]="isScroll">Projects</span>
+      </a>
+
+      <a uxTabbableListItem class="masthead-button" routerLinkActive="active" routerLink="github-organizations">
+        <span [class.masthead-button-scroll]="isScroll">Github Organizations</span>
+      </a>
+
+      <a uxTabbableListItem class="masthead-button" routerLinkActive="active" routerLink="blog">
+        <span [class.masthead-button-scroll]="isScroll">Blog</span>
+      </a>
+
+    </nav>
+
+    <button *ngIf="isToggleVisible"
+            type="button"
+            aria-label="Toggle Navigation"
+            class="btn btn-link btn-icon masthead-toggle"
+            (click)="isCollapsed = !isCollapsed">
+
+      <ux-icon name="menu"></ux-icon>
+
+    </button>
+
+  </div>
+
+</header>
+
+<div class="masthead-label"
+     [class.masthead-label-collapsed]="!isToggleVisible && isScroll || isToggleVisible">
+
+  <div class="container-fluid-label">
+
+    <span class="open-source-label">Open Source</span>
+    <span class="microfocus-label">Micro Focus</span>
+
+  </div>
+
+</div>
+
+<ul uxTabbableList class="dropdown-menu" @menuAnimation [class.masthead-dropdown-expanded]="!isCollapsed && isToggleVisible" [class.masthead-dropdown-expanded-scroll]="!isCollapsed && isToggleVisible && isScroll" role="menu">
+
+  <li role="menuitem">
+    <a uxTabbableListItem class="dropdown-item" (click)="isCollapsed = !isCollapsed" routerLinkActive="active" routerLink="projects">
+      Projects
+    </a>
+  </li>
+
+  <li role="menuitem">
+    <a uxTabbableListItem class="dropdown-item" (click)="isCollapsed = !isCollapsed" routerLinkActive="active" routerLink="github-organizations">
+      GitHub Organizations
+    </a>
+  </li>
+
+  <li role="menuitem">
+    <a uxTabbableListItem class="dropdown-item" (click)="isCollapsed = !isCollapsed" routerLinkActive="active" routerLink="blog">
+      Blog
+    </a>
+  </li>
+
+</ul>

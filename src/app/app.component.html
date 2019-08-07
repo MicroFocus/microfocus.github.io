@@ -1,0 +1,31 @@
+<!-- Masthead -->
+<app-masthead #masthead></app-masthead>
+
+<!-- Main Content-->
+<div [class.app-content]="!masthead.isToggleVisible">
+
+  <div class="page-main masthead-offset-primary footer-offset">
+
+    <div class="page-content">
+
+      <div class="wrapper-content">
+
+        <div class="container">
+
+          <h1 class="open-source-page-header">{{pageTitle}}</h1>
+
+          <router-outlet></router-outlet>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<!-- Footer -->
+<app-footer></app-footer>
+
