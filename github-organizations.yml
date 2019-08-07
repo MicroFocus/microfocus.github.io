@@ -18,3 +18,12 @@
       url: https://github.com/vertica
       icon: social-github
       title: github.com/vertica
+
+-   title: IDOL
+    description: >
+      IDOL is the industry leader for unified analytics of text, audio and video content across the enterprise, 
+      offering AI for enterprise search, chatbots, open source intelligence and unstructured data analytics.
+    link:
+      url: https://github.com/microfocus-idol
+      icon: social-github
+      title: github.com/microfocus-idol
