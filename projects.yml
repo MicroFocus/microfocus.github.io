@@ -8,7 +8,7 @@
 
 -   image: assets/images/default-logo.png
     title: Octane Issues Reporter
-    description: Octane Issues Reporter is an automatic service that adds the ability to create a defect in Center out of an exception.
+    description: Octane Issues Reporter is an automatic service that adds the ability to create a defect in ALM Octane out of an exception in other systems.
     link:
         url: https://github.com/MicroFocus/octane-issues-reporter
         icon: social-github
