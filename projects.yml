@@ -29,3 +29,11 @@
         url: https://github.com/MicroFocus/swagger-ui
         icon: social-github
         title: swagger-ui
+
+-   image:  assets/images/default-logo.png
+    title: Elasticsearch mapping updater
+    description: This is a tool to update the mapping of existing indexes in Elasticsearch.
+    link:
+        url: https://github.com/CAFDataProcessing/elastic-mapping-updater
+        icon: social-github
+        title: elastic-mapping-updater
