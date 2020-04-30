@@ -21,3 +21,11 @@
         url: https://github.com/MicroFocus/octane-jira-coverage-plugin
         icon: social-github
         title: octane-jira-coverage-plugin
+
+-   image:  assets/images/default-logo.png
+    title: Swagger UI
+    description: This is the Micro Focus branded version of the Swagger UI.
+    link:
+        url: https://github.com/MicroFocus/swagger-ui
+        icon: social-github
+        title: swagger-ui
