@@ -3,7 +3,7 @@ title: "Elasticsearch mapping updater"
 author: "Kusuma Ghosh Dastidar"
 date: "2020-04-30"
 ---
-Elasticsearch indexes if created using index templates would need to be updated if the template changes. The index mapping changes could be as simple as adding new fields to more complex field `type` changes which would involve re-indexing data.
+Index templates are applied when new indexes are created in Elasticsearch.  They can be updated as a product evolves but unfortunately the updates only apply to new indexes.  This utility can be used to bring existing indexes into line with the changes made to the index templates.  The index mapping changes could be as simple as adding new fields to more complex field type changes which would involve re-indexing data.
 
 ### Elasticsearch mapping updater
 
