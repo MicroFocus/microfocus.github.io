@@ -7,4 +7,4 @@ Index templates are applied when new indexes are created in Elasticsearch.  They
 
 ### Elasticsearch mapping updater
 
-The elastic-mapping-updater is a tool to update existing indexes in Elasticsearch. The tool first finds all index templates in an Elasticsearch instance and updates the mappings of all indexes that match each template pattern. The tool provides a simple command line interface and has a convenient `dryrun` option that lists the mapping changes to the indexes but does not apply them. The tool currently adds new field definitions and consolidates dynamic templates. This is a nifty tool to use in an upgrade scenario to efforlessly migrate index mapping changes.
+The utility first finds all index templates in an Elasticsearch instance and updates the mappings of all indexes that match each template pattern. The tool provides a simple command line interface and has a convenient `dryrun` option that lists the mapping changes to the indexes but does not apply them. The tool currently adds new field definitions and consolidates dynamic templates. This is a nifty tool to use in an upgrade scenario to efforlessly migrate index mapping changes.
