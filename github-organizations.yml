@@ -29,3 +29,20 @@
       url: https://github.com/microfocus-idol
       icon: social-github
       title: github.com/microfocus-idol
+
+-   title: Fortify Professional Services
+    description:
+      Fortify works with your existing development tools to integrate security assessment in your development process.
+    link:
+      url: https://github.com/fortify-ps
+      icon: social-github
+      title: github.com/fortify-ps
+
+-   title: PWM Password Manager
+    description:
+      PWM is an open source password self service application for LDAP directories.
+      NetIQ Self Service Password Reset is based on PWM.
+    link:
+      url: https://github.com/pwm-project
+      icon: social-github
+      title: github.com/pwm-project
