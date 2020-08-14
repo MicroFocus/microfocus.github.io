@@ -13,7 +13,9 @@
       title: cafapi.github.io
 
 -   title: Vertica
-    description: The future belongs to the fast, and Vertica delivers the fastest, most scalable advanced analytics platform, forever independent from underlying infrastructure.
+    description:
+      The future belongs to the fast, and Vertica delivers the fastest, most scalable advanced analytics platform,
+      forever independent from underlying infrastructure.
     link:
       url: https://github.com/vertica
       icon: social-github
