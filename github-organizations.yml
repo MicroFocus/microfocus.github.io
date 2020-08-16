@@ -30,6 +30,14 @@
       icon: social-github
       title: github.com/microfocus-idol
 
+-   title: Fortify on Demand Development
+    description:
+      Application security as a service with security testing, vulnerability management, expertise, and support.
+    link:
+      url: https://github.com/fod-dev
+      icon: social-github
+      title: github.com/fod-dev
+
 -   title: Fortify Professional Services
     description:
       Fortify works with your existing development tools to integrate security assessment in your development process.
