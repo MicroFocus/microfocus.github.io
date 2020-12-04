@@ -27,7 +27,7 @@
     "@micro-focus/ux-aspects": "^1.8.1",
     "@ux-aspects/ux-aspects": "^1.8.1",
     "bootstrap": "^3.3.7",
-    "highlight.js": "^9.15.8",
+    "highlight.js": "^10.4.1",
     "json-templater": "^1.2.0",
     "rxjs": "~6.4.0",
     "rxjs-compat": "^6.2.2",
