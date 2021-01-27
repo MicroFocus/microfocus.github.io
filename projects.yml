@@ -1,3 +1,11 @@
+-   image: assets/images/cloudsland-logo.png
+    title: CloudSlang
+    description: Automate and modernize your IT with CloudSlang. Orchestration as code product through workflows. Powerful, shareable and human readable. 
+    link:
+        url: https://cloudslang.io/
+        icon: home-filled
+        title: CloudSlang
+
 -   image: assets/images/ux-aspects-logo.png
     title: UX Aspects
     description: UX Aspects is an open source user interface framework for building modern, responsive, mobile, big data applications on the web.
