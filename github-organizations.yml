@@ -54,3 +54,12 @@
       url: https://github.com/pwm-project
       icon: social-github
       title: github.com/pwm-project
+
+-   title: NetIQ Professional Services
+    description:
+      NetIQ-related projects developed by Micro Focus Professional Services.
+    link:
+      url: https://github.com/netiq-ps
+      icon: social-github
+      title: github.com/netiq-ps
+      
