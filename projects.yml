@@ -6,14 +6,6 @@
         icon: home-filled
         title: UX Aspects
 
--   image: assets/images/default-logo.png
-    title: Octane Issues Reporter
-    description: Octane Issues Reporter is an automatic service that adds the ability to create a defect in ALM Octane out of an exception in other systems.
-    link:
-        url: https://github.com/MicroFocus/octane-issues-reporter
-        icon: social-github
-        title: octane-issues-reporter
-
 -   image:  assets/images/default-logo.png
     title: Octane jira coverage plugin
     description: This ALM Octane plugin provides Jira users quality status directly on native Jira Epics.
