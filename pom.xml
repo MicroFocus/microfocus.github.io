@@ -83,7 +83,7 @@
                     </execution>
 
                     <!-- Version -->
-                    <execution>
+<!--                    <execution>
                         <id>exec-npm-run-setversion</id>
                         <phase>generate-sources</phase>
                         <goals>
@@ -96,7 +96,7 @@
                                 <argument>setversion</argument>
                             </arguments>
                         </configuration>
-                    </execution>
+                    </execution>-->
                     <execution>
                         <id>exec-npm-run-postversion</id>
                         <phase>generate-sources</phase>
