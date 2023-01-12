@@ -2,7 +2,7 @@
 
 const { argv, env, exit } = require('process');
 const { existsSync } = require('fs-extra');
-const { getPomVersion, getVersionForCI, getVersionForRelease, setManifestVersion } = require('../lib/version');
+const { getPomVersion, getVersionForCI, getVersionForRelease, setManifestVersion } = require('../lib/versionx');
 
 (async () => {
 
