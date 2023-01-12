@@ -84,7 +84,7 @@
 
                     <!-- Version -->
                     <execution>
-                        <id>exec-npm-run-setversion</id>
+                        <id>exec-npm-run-preversion</id>
                         <phase>generate-sources</phase>
                         <goals>
                             <goal>exec</goal>
