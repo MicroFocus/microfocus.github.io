@@ -93,6 +93,20 @@
                             <executable>npm</executable>
                             <arguments>
                                 <argument>run</argument>
+                                <argument>preversion</argument>
+                            </arguments>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>exec-npm-run-setversion</id>
+                        <phase>generate-sources</phase>
+                        <goals>
+                            <goal>exec</goal>
+                        </goals>
+                        <configuration>
+                            <executable>npm</executable>
+                            <arguments>
+                                <argument>run</argument>
                                 <argument>setversion</argument>
                             </arguments>
                         </configuration>
