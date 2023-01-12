@@ -4,7 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "setversion": "bin/setversionx.js package.json package-lock.json",
+    "preversion": "node ./bin/setversionx.js"
+    "setversion": "package.json package-lock.json",
     "build": "ng build --prod --progress=false --base-href=./",
     "test": "ng test",
     "package": "gulp package",
