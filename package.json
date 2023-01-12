@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "preversion": "node ./bin/setversionx.js",
+    "postversion": "node ./bin/setversionx.js",
     "setversion": "ux-setversion package.json package-lock.json",
     "build": "ng build --prod --progress=false --base-href=./",
     "test": "ng test",
