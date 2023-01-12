@@ -46,7 +46,7 @@
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "^8.10.49",
     "@types/webpack-env": "^1.13.2",
-    "@ux-aspects/ux-aspects-scripts": "^2.3.1",
+    "@ux-aspects/ux-aspects-scripts": "2.5.0",
     "codelyzer": "^5.0.0",
     "frontmatter-markdown-loader": "^1.7.0",
     "gulp": "^4.0.2",
