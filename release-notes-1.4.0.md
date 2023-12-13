@@ -4,6 +4,6 @@
 ${version-number}
 
 #### New Features
-- US728101: Rebranded as OpenText.
+- US728101: Rebranded open-source portal site as OpenText.
 
 #### Known Issues
