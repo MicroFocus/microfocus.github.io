@@ -16,7 +16,7 @@
 
 -   image:  assets/images/default-logo.png
     title: Swagger UI
-    description: This is the Micro Focus branded version of the Swagger UI.
+    description: This is the OpenText branded version of the Swagger UI.
     link:
         url: https://github.com/MicroFocus/swagger-ui
         icon: social-github

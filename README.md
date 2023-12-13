@@ -1,6 +1,6 @@
-# Micro Focus Open Source Software Portal
+# OpenText Open Source Software Portal
 
-The Open Source Software Portal showcases Micro Focus open source projects.
+The Open Source Software Portal showcases OpenText open source projects.
 
 https://microfocus.github.io/
 
@@ -21,7 +21,7 @@ For more details on the fork/pull request workflow, see [Forking Projects](https
 
 Projects are described in the `projects.yml` file. The following properties should be provided:
 
-- `image`: A URL to a logo representing the project. Logos should be 48x48 pixels, and added in the `src/assets/images` directory. Ensure that it is named in a way that identifies the project, e.g. `my-project-logo.png`. The `image` path in this case would be `assets/images/my-project-logo.png`. If no suitable logo is available, use `assets/images/default-logo.png` to specify the generic Micro Focus logo.
+- `image`: A URL to a logo representing the project. Logos should be 48x48 pixels, and added in the `src/assets/images` directory. Ensure that it is named in a way that identifies the project, e.g. `my-project-logo.png`. The `image` path in this case would be `assets/images/my-project-logo.png`. If no suitable logo is available, use `assets/images/default-logo.png` to specify the generic OpenText logo.
 - `title`: The name of the project.
 - `description`: A short summary of the purpose of the project. Note that the height of the project cards is limited, so if the title and/or description is particularly long, truncation will occur.
 - `link`: The following child properties describe the link to the project's homepage:
